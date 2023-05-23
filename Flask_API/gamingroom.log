@@ -1,0 +1,884 @@
+2021-12-15 18:26:47,698 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-15 18:26:47,715 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-15 18:26:49,132 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-15 18:26:49,144 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-15 18:27:32,004 INFO werkzeug Thread-6 : 127.0.0.1 - - [15/Dec/2021 18:27:32] "GET / HTTP/1.1" 200 -
+2021-12-15 18:27:32,043 INFO werkzeug Thread-8 : 127.0.0.1 - - [15/Dec/2021 18:27:32] "GET /static/jeux2.png HTTP/1.1" 200 -
+2021-12-15 18:27:32,043 INFO werkzeug Thread-7 : 127.0.0.1 - - [15/Dec/2021 18:27:32] "GET /static/main.css HTTP/1.1" 200 -
+2021-12-15 18:27:32,059 INFO werkzeug Thread-9 : 127.0.0.1 - - [15/Dec/2021 18:27:32] "GET /static/jeux4.png HTTP/1.1" 200 -
+2021-12-15 18:27:32,092 INFO werkzeug Thread-10 : 127.0.0.1 - - [15/Dec/2021 18:27:32] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-15 18:27:32,152 INFO werkzeug Thread-11 : 127.0.0.1 - - [15/Dec/2021 18:27:32] "GET /static/jeux3.png HTTP/1.1" 200 -
+2021-12-15 18:27:32,162 INFO werkzeug Thread-12 : 127.0.0.1 - - [15/Dec/2021 18:27:32] "GET /static/jeux1.png HTTP/1.1" 200 -
+2021-12-15 18:27:33,015 INFO werkzeug Thread-13 : 127.0.0.1 - - [15/Dec/2021 18:27:33] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2021-12-15 18:27:33,021 INFO werkzeug Thread-14 : 127.0.0.1 - - [15/Dec/2021 18:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-12-15 18:27:33,026 INFO werkzeug Thread-15 : 127.0.0.1 - - [15/Dec/2021 18:27:33] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2021-12-15 18:27:35,810 INFO werkzeug Thread-16 : 127.0.0.1 - - [15/Dec/2021 18:27:35] "GET /login HTTP/1.1" 200 -
+2021-12-15 18:27:35,844 INFO werkzeug Thread-17 : 127.0.0.1 - - [15/Dec/2021 18:27:35] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-15 18:28:18,483 INFO werkzeug Thread-18 : 127.0.0.1 - - [15/Dec/2021 18:28:18] "GET /register HTTP/1.1" 200 -
+2021-12-15 18:28:18,510 INFO werkzeug Thread-19 : 127.0.0.1 - - [15/Dec/2021 18:28:18] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-15 18:28:32,929 INFO werkzeug Thread-20 : 127.0.0.1 - - [15/Dec/2021 18:28:32] "[32mPOST /register HTTP/1.1[0m" 302 -
+2021-12-15 18:28:32,939 INFO werkzeug Thread-21 : 127.0.0.1 - - [15/Dec/2021 18:28:32] "GET /login HTTP/1.1" 200 -
+2021-12-15 18:28:32,969 INFO werkzeug Thread-22 : 127.0.0.1 - - [15/Dec/2021 18:28:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-15 18:28:35,935 INFO werkzeug Thread-23 : 127.0.0.1 - - [15/Dec/2021 18:28:35] "GET /login HTTP/1.1" 200 -
+2021-12-15 18:28:35,949 INFO werkzeug Thread-24 : 127.0.0.1 - - [15/Dec/2021 18:28:35] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-15 18:28:43,431 INFO werkzeug Thread-25 : 127.0.0.1 - - [15/Dec/2021 18:28:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-12-15 18:28:43,444 INFO werkzeug Thread-26 : 127.0.0.1 - - [15/Dec/2021 18:28:43] "GET /home HTTP/1.1" 200 -
+2021-12-15 18:28:43,493 INFO werkzeug Thread-27 : 127.0.0.1 - - [15/Dec/2021 18:28:43] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-15 18:28:43,497 INFO werkzeug Thread-28 : 127.0.0.1 - - [15/Dec/2021 18:28:43] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-15 18:28:43,499 INFO werkzeug Thread-29 : 127.0.0.1 - - [15/Dec/2021 18:28:43] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-15 18:28:43,516 INFO werkzeug Thread-30 : 127.0.0.1 - - [15/Dec/2021 18:28:43] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-15 18:28:43,517 INFO werkzeug Thread-31 : 127.0.0.1 - - [15/Dec/2021 18:28:43] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-15 18:28:43,518 INFO werkzeug Thread-32 : 127.0.0.1 - - [15/Dec/2021 18:28:43] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-15 18:28:44,758 INFO werkzeug Thread-33 : 127.0.0.1 - - [15/Dec/2021 18:28:44] "GET /account HTTP/1.1" 200 -
+2021-12-15 18:28:44,781 INFO werkzeug Thread-34 : 127.0.0.1 - - [15/Dec/2021 18:28:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 00:10:05,914 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-16 00:10:05,933 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 00:10:07,339 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 00:10:07,353 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 00:10:14,401 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 00:10:14] "GET /search HTTP/1.1" 200 -
+2021-12-16 00:10:14,439 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 00:10:14] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 00:10:23,973 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 00:10:23] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 00:10:24,008 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 00:10:24] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 00:10:24,008 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 00:10:24] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 00:10:24,019 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 00:10:24] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 00:10:24,092 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 00:10:24] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 00:10:24,311 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 00:10:24] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 00:10:41,121 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 00:10:42,335 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 00:10:44,299 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 00:10:44,307 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 00:10:46,324 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 00:10:46] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 00:10:46,340 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 00:10:46] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 00:10:46,341 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 00:10:46] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 00:10:46,351 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 00:10:46] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 00:10:46,372 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 00:10:46] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 00:11:49,621 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 00:11:50,939 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 00:11:53,091 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 00:11:53,104 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 00:11:53,920 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 00:11:53] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 00:11:53,940 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 00:11:53] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 00:11:53,943 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 00:11:53] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 00:11:53,951 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 00:11:53] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 00:11:53,971 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 00:11:53] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 00:17:43,141 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 00:17:44,379 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 00:17:45,971 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 00:17:45,978 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:30:50,668 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:30:51,867 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:30:53,500 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:30:53,515 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:32:38,257 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:32:39,527 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:32:41,019 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:32:41,026 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:32:45,907 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 01:32:45] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 01:32:45,940 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 01:32:45] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 01:32:45,940 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 01:32:45] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 01:32:45,953 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 01:32:45] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 01:32:45,967 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 01:32:45] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 01:33:15,367 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:33:16,585 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:33:18,484 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:33:18,492 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:33:19,519 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 01:33:19] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 01:33:19,537 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 01:33:19] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 01:33:19,537 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 01:33:19] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 01:33:19,547 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 01:33:19] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 01:33:19,566 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 01:33:19] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 01:35:26,020 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:35:27,281 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:35:28,690 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:35:28,697 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:35:32,131 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 01:35:32] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 01:35:32,148 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 01:35:32] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 01:35:32,149 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 01:35:32] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 01:35:32,158 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 01:35:32] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 01:35:32,178 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 01:35:32] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 01:37:07,535 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:37:08,818 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:37:10,654 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:37:10,665 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:37:11,918 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 01:37:11] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 01:37:11,935 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 01:37:11] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 01:37:11,935 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 01:37:11] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 01:37:11,947 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 01:37:11] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 01:37:11,964 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 01:37:11] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 01:37:47,047 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:37:48,391 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:37:50,246 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:37:50,253 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:37:54,093 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:37:55,454 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:37:57,373 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:37:57,381 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:38:06,001 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:38:06,018 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:38:06,053 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:38:06,889 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "GET / HTTP/1.1" 200 -
+2021-12-16 01:38:06,901 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:38:06,932 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 01:38:06,936 INFO werkzeug Thread-14 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 01:38:06,940 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 01:38:06,946 INFO werkzeug Thread-15 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:38:06,955 INFO werkzeug Thread-17 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 01:38:06,963 INFO werkzeug Thread-16 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 01:38:06,965 INFO werkzeug Thread-18 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 01:38:06,973 INFO werkzeug Thread-19 : 127.0.0.1 - - [16/Dec/2021 01:38:06] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 01:38:08,291 INFO werkzeug Thread-20 : 127.0.0.1 - - [16/Dec/2021 01:38:08] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:38:08,300 INFO werkzeug Thread-21 : 127.0.0.1 - - [16/Dec/2021 01:38:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:38:08,327 INFO werkzeug Thread-22 : 127.0.0.1 - - [16/Dec/2021 01:38:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:39:22,784 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 01:39:22] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 01:39:39,481 INFO werkzeug Thread-23 : 127.0.0.1 - - [16/Dec/2021 01:39:39] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 01:39:39,504 INFO werkzeug Thread-24 : 127.0.0.1 - - [16/Dec/2021 01:39:39] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 01:39:39,505 INFO werkzeug Thread-25 : 127.0.0.1 - - [16/Dec/2021 01:39:39] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 01:39:39,513 INFO werkzeug Thread-26 : 127.0.0.1 - - [16/Dec/2021 01:39:39] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 01:39:39,599 INFO werkzeug Thread-27 : 127.0.0.1 - - [16/Dec/2021 01:39:39] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 01:40:11,977 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:40:13,380 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:40:15,361 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:40:15,369 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:40:19,931 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 01:40:19] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:40:19,948 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 01:40:19] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:40:20,994 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 01:40:20] "GET / HTTP/1.1" 200 -
+2021-12-16 01:40:21,034 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 01:40:21] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 01:40:21,036 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 01:40:21] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 01:40:21,043 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 01:40:21] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 01:40:21,050 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 01:40:21] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 01:40:21,053 INFO werkzeug Thread-14 : 127.0.0.1 - - [16/Dec/2021 01:40:21] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 01:40:21,062 INFO werkzeug Thread-16 : 127.0.0.1 - - [16/Dec/2021 01:40:21] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 01:40:21,067 INFO werkzeug Thread-15 : 127.0.0.1 - - [16/Dec/2021 01:40:21] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:40:21,075 INFO werkzeug Thread-17 : 127.0.0.1 - - [16/Dec/2021 01:40:21] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 01:40:21,088 INFO werkzeug Thread-18 : 127.0.0.1 - - [16/Dec/2021 01:40:21] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 01:40:21,102 INFO werkzeug Thread-20 : 127.0.0.1 - - [16/Dec/2021 01:40:21] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 01:40:21,106 INFO werkzeug Thread-19 : 127.0.0.1 - - [16/Dec/2021 01:40:21] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 01:40:22,212 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 01:40:22] "GET /History HTTP/1.1" 200 -
+2021-12-16 01:40:22,240 INFO werkzeug Thread-21 : 127.0.0.1 - - [16/Dec/2021 01:40:22] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:40:23,026 INFO werkzeug Thread-22 : 127.0.0.1 - - [16/Dec/2021 01:40:23] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:40:23,048 INFO werkzeug Thread-23 : 127.0.0.1 - - [16/Dec/2021 01:40:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:41:21,448 INFO werkzeug Thread-24 : 127.0.0.1 - - [16/Dec/2021 01:41:21] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 01:41:21,470 INFO werkzeug Thread-25 : 127.0.0.1 - - [16/Dec/2021 01:41:21] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 01:41:21,475 INFO werkzeug Thread-26 : 127.0.0.1 - - [16/Dec/2021 01:41:21] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 01:41:21,484 INFO werkzeug Thread-27 : 127.0.0.1 - - [16/Dec/2021 01:41:21] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 01:41:21,559 INFO werkzeug Thread-28 : 127.0.0.1 - - [16/Dec/2021 01:41:21] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 01:43:41,122 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:43:43,481 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:43:45,364 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:43:45,373 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:43:50,478 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:43:51,675 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:43:53,590 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:43:53,598 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:43:54,444 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 01:43:54] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:43:54,462 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 01:43:54] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:43:55,143 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "GET / HTTP/1.1" 200 -
+2021-12-16 01:43:55,156 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 01:43:55,173 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 01:43:55,178 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 01:43:55,185 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 01:43:55,191 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 01:43:55,194 INFO werkzeug Thread-14 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:43:55,215 INFO werkzeug Thread-15 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 01:43:55,215 INFO werkzeug Thread-16 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 01:43:55,240 INFO werkzeug Thread-17 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 01:43:55,263 INFO werkzeug Thread-18 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 01:43:55,276 INFO werkzeug Thread-19 : 127.0.0.1 - - [16/Dec/2021 01:43:55] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 01:43:56,411 INFO werkzeug Thread-20 : 127.0.0.1 - - [16/Dec/2021 01:43:56] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:43:56,431 INFO werkzeug Thread-21 : 127.0.0.1 - - [16/Dec/2021 01:43:56] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:44:58,445 INFO werkzeug Thread-22 : 127.0.0.1 - - [16/Dec/2021 01:44:58] "POST /search HTTP/1.1" 200 -
+2021-12-16 01:44:58,469 INFO werkzeug Thread-23 : 127.0.0.1 - - [16/Dec/2021 01:44:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:46:55,845 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:46:57,037 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:46:58,542 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:46:58,550 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:47:40,945 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 01:47:40] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:47:40,961 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 01:47:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:47:42,201 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "GET / HTTP/1.1" 200 -
+2021-12-16 01:47:42,233 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 01:47:42,254 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 01:47:42,255 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 01:47:42,256 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 01:47:42,258 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 01:47:42,264 INFO werkzeug Thread-14 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 01:47:42,283 INFO werkzeug Thread-17 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 01:47:42,285 INFO werkzeug Thread-16 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 01:47:42,286 INFO werkzeug Thread-15 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:47:42,291 INFO werkzeug Thread-18 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 01:47:42,295 INFO werkzeug Thread-19 : 127.0.0.1 - - [16/Dec/2021 01:47:42] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 01:47:43,486 INFO werkzeug Thread-20 : 127.0.0.1 - - [16/Dec/2021 01:47:43] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:47:43,512 INFO werkzeug Thread-21 : 127.0.0.1 - - [16/Dec/2021 01:47:43] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:48:45,180 INFO werkzeug Thread-22 : 127.0.0.1 - - [16/Dec/2021 01:48:45] "POST /search HTTP/1.1" 200 -
+2021-12-16 01:48:45,217 INFO werkzeug Thread-23 : 127.0.0.1 - - [16/Dec/2021 01:48:45] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:52:05,118 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:52:06,388 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:52:07,999 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:52:08,007 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:52:08,749 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 01:52:08] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:52:08,764 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 01:52:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:53:12,814 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 01:53:12] "POST /search HTTP/1.1" 200 -
+2021-12-16 01:53:12,848 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 01:53:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:53:44,448 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 01:53:44] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:53:44,463 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 01:53:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:54:42,115 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 01:54:42] "POST /search HTTP/1.1" 200 -
+2021-12-16 01:54:42,133 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 01:54:42] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:57:24,629 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:57:25,867 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:57:27,476 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:57:27,484 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 01:57:28,095 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 01:57:28] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:57:28,112 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 01:57:28] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:58:21,846 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 01:58:21] "POST /search HTTP/1.1" 200 -
+2021-12-16 01:58:21,881 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 01:58:21] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:59:00,219 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 01:59:01,094 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 01:59:01] "GET /search HTTP/1.1" 200 -
+2021-12-16 01:59:01,108 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 01:59:01] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 01:59:01,440 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 01:59:03,017 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 01:59:03,025 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 02:00:05,812 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 02:00:05] "POST /search HTTP/1.1" 200 -
+2021-12-16 02:00:05,849 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 02:00:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:01:04,478 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 02:01:05,739 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 02:01:07,377 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 02:01:07,386 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 02:01:08,078 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 02:01:08] "GET /search HTTP/1.1" 200 -
+2021-12-16 02:01:08,097 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 02:01:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:02:10,792 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 02:02:12,158 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 02:02:14,384 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 02:02:14,392 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 02:02:57,109 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 02:02:57] "GET /search HTTP/1.1" 200 -
+2021-12-16 02:02:57,132 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 02:02:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:03:53,485 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 02:03:54,681 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 02:03:56,262 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 02:03:56,270 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 02:04:31,969 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 02:04:31] "GET /search HTTP/1.1" 200 -
+2021-12-16 02:04:31,989 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 02:04:31] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:05:01,229 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 02:05:02,483 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 02:05:04,612 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 02:05:04,622 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 02:05:05,553 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 02:05:05] "GET /search HTTP/1.1" 200 -
+2021-12-16 02:05:05,566 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 02:05:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:06:07,627 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 02:06:07] "POST /search HTTP/1.1" 200 -
+2021-12-16 02:06:07,652 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 02:06:07] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:07:17,174 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 02:07:17] "GET /search HTTP/1.1" 200 -
+2021-12-16 02:07:17,185 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 02:07:17] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:07:17,193 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 02:07:17] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:08:12,402 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 02:08:12] "POST /search HTTP/1.1" 200 -
+2021-12-16 02:08:12,428 INFO werkzeug Thread-14 : 127.0.0.1 - - [16/Dec/2021 02:08:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:09:23,584 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 02:09:24,915 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 02:09:26,533 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 02:09:26,541 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 02:09:27,229 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 02:09:27] "GET /search HTTP/1.1" 200 -
+2021-12-16 02:09:27,242 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 02:09:27] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:09:27,248 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 02:09:27] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:10:20,140 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 02:10:20] "POST /search HTTP/1.1" 200 -
+2021-12-16 02:10:20,177 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 02:10:20] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:11:02,159 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 02:11:03,383 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 02:11:04,883 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 02:11:04,892 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 02:11:06,472 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 02:11:07,751 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 02:11:09,341 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 02:11:09,350 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 02:11:10,013 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 02:11:10] "GET /search HTTP/1.1" 200 -
+2021-12-16 02:11:10,026 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 02:11:10] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:11:10,032 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 02:11:10] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 02:12:04,973 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 02:12:04] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 02:12:05,010 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 02:12:05] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 02:12:05,010 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 02:12:05] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 02:12:05,018 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 02:12:05] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 02:12:05,087 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 02:12:05] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 02:13:27,900 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 02:13:29,145 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 02:13:30,555 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 02:13:30,562 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 02:14:33,932 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 02:14:35,299 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 02:14:36,861 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 02:14:36,870 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 02:45:41,714 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 02:45:41] "POST /search HTTP/1.1" 200 -
+2021-12-16 02:45:41,740 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 02:45:41] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:52:45,754 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 06:52:46,965 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 06:52:49,019 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 06:52:49,030 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 06:52:50,083 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 06:52:50] "GET /search HTTP/1.1" 200 -
+2021-12-16 06:52:50,097 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 06:52:50] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:52:50,101 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 06:52:50] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:53:44,451 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 06:53:44] "POST /search HTTP/1.1" 200 -
+2021-12-16 06:53:44,487 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 06:53:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:54:00,243 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 06:54:01,441 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 06:54:02,916 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 06:54:02,923 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 06:54:06,780 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 06:54:07,986 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 06:54:09,634 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 06:54:09,642 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 06:54:10,288 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 06:54:10] "GET /search HTTP/1.1" 200 -
+2021-12-16 06:54:10,302 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 06:54:10] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:54:10,305 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 06:54:10] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:54:38,358 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 06:54:38] "POST /search HTTP/1.1" 200 -
+2021-12-16 06:54:38,390 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 06:54:38] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:54:55,646 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 06:54:56,887 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 06:54:58,548 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 06:54:58,556 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 06:54:59,203 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 06:54:59] "GET /search HTTP/1.1" 200 -
+2021-12-16 06:54:59,216 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 06:54:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:54:59,220 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 06:54:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:55:21,378 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 06:55:21] "POST /search HTTP/1.1" 200 -
+2021-12-16 06:55:21,403 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 06:55:21] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:55:51,966 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 06:55:53,311 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 06:55:55,067 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 06:55:55,086 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 06:56:06,696 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 06:56:06] "POST /search HTTP/1.1" 200 -
+2021-12-16 06:56:06,713 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 06:56:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:56:45,366 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 06:56:46,562 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 06:57:15,441 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-16 06:57:15,447 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 06:57:17,053 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 06:57:17,062 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 06:57:17,754 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 06:57:17] "GET / HTTP/1.1" 200 -
+2021-12-16 06:57:17,770 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 06:57:17] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 06:57:17,780 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 06:57:17] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 06:57:17,787 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 06:57:17] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 06:57:17,793 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 06:57:17] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 06:57:17,795 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 06:57:17] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 06:57:17,800 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 06:57:17] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:57:18,698 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 06:57:18] "GET /search HTTP/1.1" 200 -
+2021-12-16 06:57:18,704 INFO werkzeug Thread-14 : 127.0.0.1 - - [16/Dec/2021 06:57:18] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:57:18,724 INFO werkzeug Thread-15 : 127.0.0.1 - - [16/Dec/2021 06:57:18] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:57:37,974 INFO werkzeug Thread-16 : 127.0.0.1 - - [16/Dec/2021 06:57:37] "POST /search HTTP/1.1" 200 -
+2021-12-16 06:57:37,997 INFO werkzeug Thread-17 : 127.0.0.1 - - [16/Dec/2021 06:57:37] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 06:58:33,070 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 06:58:34,415 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 06:58:36,115 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 06:58:36,124 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 06:58:48,729 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 06:58:48] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 06:58:48,749 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 06:58:48] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 06:58:48,750 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 06:58:48] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 06:58:48,761 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 06:58:48] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 06:58:48,801 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 06:58:48] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 07:00:24,417 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:00:25,629 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:00:27,168 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:00:27,176 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:00:41,767 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:00:41] "POST /search HTTP/1.1" 200 -
+2021-12-16 07:00:41,792 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:00:41] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 07:01:14,333 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:01:15,601 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:01:16,982 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:01:16,990 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:01:32,718 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:01:32] "POST /search HTTP/1.1" 200 -
+2021-12-16 07:01:32,740 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:01:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 07:01:55,503 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:01:56,721 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:01:58,650 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:01:58,658 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:02:10,323 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:02:10] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 07:02:10,342 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:02:10] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 07:02:10,342 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 07:02:10] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 07:02:10,423 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 07:02:10] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 07:02:10,424 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 07:02:10] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 07:02:40,873 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:02:42,078 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:02:43,826 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:02:43,836 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:02:56,560 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:02:56] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 07:02:56,589 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:02:56] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 07:02:56,591 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 07:02:56] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 07:02:56,599 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 07:02:56] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 07:02:56,618 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 07:02:56] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 07:03:25,981 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:03:27,336 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:03:29,113 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:03:29,122 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:03:42,469 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:03:42] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 07:03:42,493 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:03:42] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 07:03:42,493 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 07:03:42] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 07:03:42,504 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 07:03:42] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 07:03:42,527 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 07:03:42] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 07:04:10,089 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:04:11,336 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:04:13,045 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:04:13,054 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:04:25,516 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:04:25] "POST /search HTTP/1.1" 200 -
+2021-12-16 07:04:25,536 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:04:25] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 07:06:26,126 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:06:27,411 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:06:29,152 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:06:29,160 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:06:43,212 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:06:43] "POST /search HTTP/1.1" 200 -
+2021-12-16 07:06:43,216 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:06:43,226 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:06:43] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 07:06:44,422 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:07:16,304 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-16 07:07:16,320 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:07:18,341 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:07:18,350 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:07:19,843 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:07:19] "GET /search HTTP/1.1" 200 -
+2021-12-16 07:07:19,856 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:07:19] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 07:07:40,061 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 07:07:40] "POST /search HTTP/1.1" 200 -
+2021-12-16 07:07:40,099 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 07:07:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 07:08:25,206 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:08:26,465 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:08:28,640 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:08:28,648 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:08:45,491 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:08:45] "POST /search HTTP/1.1" 200 -
+2021-12-16 07:08:45,518 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:08:45] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 07:28:01,804 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:28:03,016 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:28:04,457 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:28:04,469 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:28:22,657 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:28:22] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 07:28:22,691 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:28:22] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 07:28:22,691 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 07:28:22] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 07:28:22,699 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 07:28:22] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 07:28:22,731 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 07:28:22] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 07:29:06,101 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:29:07,432 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:29:09,223 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:29:09,231 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:29:21,044 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:29:21] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 07:29:21,064 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:29:21] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 07:29:21,064 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 07:29:21] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 07:29:21,079 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 07:29:21] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 07:29:21,136 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 07:29:21] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 07:29:56,525 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:29:57,788 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:29:59,521 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:29:59,531 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 07:33:09,265 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 07:33:09] "POST /search HTTP/1.1" 200 -
+2021-12-16 07:33:09,289 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 07:33:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 07:34:24,143 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 07:34:25,411 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 07:34:27,020 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 07:34:27,028 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 08:02:38,457 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 08:02:39,736 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 08:02:41,511 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 08:02:41,518 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 08:03:05,365 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 08:03:05] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 08:03:05,397 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 08:03:05] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 08:03:05,398 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 08:03:05] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 08:03:05,409 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 08:03:05] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 08:03:05,430 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 08:03:05] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 08:07:37,398 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 08:07:38,677 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 08:07:40,602 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 08:07:40,609 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 08:08:04,387 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 08:08:04] "POST /search HTTP/1.1" 200 -
+2021-12-16 08:08:04,406 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 08:08:04] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 09:51:39,472 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 09:51:39] "GET /search HTTP/1.1" 200 -
+2021-12-16 09:51:39,477 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 09:51:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 09:51:39,488 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 09:51:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 09:53:12,523 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 09:53:13,722 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 09:53:15,190 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 09:53:15,214 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 09:53:19,967 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 09:53:19] "GET /search HTTP/1.1" 200 -
+2021-12-16 09:53:19,982 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 09:53:19] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 09:53:50,811 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 09:53:50] "POST /search HTTP/1.1" 200 -
+2021-12-16 09:53:50,833 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 09:53:50] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 09:54:45,143 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 09:54:46,400 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 09:54:48,090 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 09:54:48,098 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 09:55:01,556 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 09:55:01] "GET /search HTTP/1.1" 200 -
+2021-12-16 09:55:01,564 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 09:55:01] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 09:55:01,575 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 09:55:01] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:00:26,898 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 10:00:28,097 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 10:00:29,579 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 10:00:29,586 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 10:00:32,848 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 10:00:32] "GET /search HTTP/1.1" 200 -
+2021-12-16 10:00:32,866 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 10:00:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:01:17,936 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 10:01:17] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:01:17,960 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 10:01:17] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:01:43,158 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 10:01:44,353 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 10:01:46,192 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 10:01:46,200 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 10:02:10,642 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 10:02:10] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:02:10,660 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 10:02:10] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:03:04,667 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 10:03:05,969 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 10:03:07,721 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 10:03:07,730 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 10:03:31,985 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 10:03:31] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 10:03:32,010 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 10:03:32] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 10:03:32,011 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 10:03:32] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 10:03:32,018 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 10:03:32] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 10:03:32,137 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 10:03:32] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 10:03:39,089 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 10:03:40,352 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 10:03:41,917 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 10:03:41,927 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 10:04:06,825 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 10:04:06] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:04:06,847 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 10:04:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:04:35,061 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 10:04:36,542 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 10:04:38,264 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 10:04:38,274 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 10:05:03,842 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 10:05:03] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 10:05:03,861 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 10:05:03] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 10:05:03,862 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 10:05:03] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 10:05:03,875 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 10:05:03] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 10:05:03,938 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 10:05:03] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 10:06:27,622 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/utils.py', reloading
+2021-12-16 10:06:28,892 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 10:06:30,743 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 10:06:30,752 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 10:07:05,028 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 10:07:05] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:07:05,048 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 10:07:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:07:42,243 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 10:07:42] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:07:42,263 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 10:07:42] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:07:46,189 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 10:07:46] "GET /search HTTP/1.1" 200 -
+2021-12-16 10:07:46,194 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 10:07:46] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:07:46,210 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 10:07:46] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:08:22,619 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 10:08:22] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:08:22,653 INFO werkzeug Thread-14 : 127.0.0.1 - - [16/Dec/2021 10:08:22] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:08:32,400 INFO werkzeug Thread-15 : 127.0.0.1 - - [16/Dec/2021 10:08:32] "GET /search HTTP/1.1" 200 -
+2021-12-16 10:08:32,411 INFO werkzeug Thread-16 : 127.0.0.1 - - [16/Dec/2021 10:08:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:08:32,416 INFO werkzeug Thread-17 : 127.0.0.1 - - [16/Dec/2021 10:08:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:09:02,563 INFO werkzeug Thread-18 : 127.0.0.1 - - [16/Dec/2021 10:09:02] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:09:02,582 INFO werkzeug Thread-19 : 127.0.0.1 - - [16/Dec/2021 10:09:02] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:16:45,537 INFO werkzeug Thread-20 : 127.0.0.1 - - [16/Dec/2021 10:16:45] "GET /search HTTP/1.1" 200 -
+2021-12-16 10:16:45,542 INFO werkzeug Thread-21 : 127.0.0.1 - - [16/Dec/2021 10:16:45] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:16:45,555 INFO werkzeug Thread-22 : 127.0.0.1 - - [16/Dec/2021 10:16:45] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:17:29,425 INFO werkzeug Thread-23 : 127.0.0.1 - - [16/Dec/2021 10:17:29] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:17:29,454 INFO werkzeug Thread-24 : 127.0.0.1 - - [16/Dec/2021 10:17:29] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:31:05,448 INFO werkzeug Thread-25 : 127.0.0.1 - - [16/Dec/2021 10:31:05] "GET /search HTTP/1.1" 200 -
+2021-12-16 10:31:05,453 INFO werkzeug Thread-26 : 127.0.0.1 - - [16/Dec/2021 10:31:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:31:05,468 INFO werkzeug Thread-27 : 127.0.0.1 - - [16/Dec/2021 10:31:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:31:44,494 INFO werkzeug Thread-28 : 127.0.0.1 - - [16/Dec/2021 10:31:44] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:31:44,526 INFO werkzeug Thread-29 : 127.0.0.1 - - [16/Dec/2021 10:31:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:31:51,554 INFO werkzeug Thread-30 : 127.0.0.1 - - [16/Dec/2021 10:31:51] "GET /search HTTP/1.1" 200 -
+2021-12-16 10:31:51,560 INFO werkzeug Thread-31 : 127.0.0.1 - - [16/Dec/2021 10:31:51] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:31:51,569 INFO werkzeug Thread-32 : 127.0.0.1 - - [16/Dec/2021 10:31:51] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:32:31,777 INFO werkzeug Thread-33 : 127.0.0.1 - - [16/Dec/2021 10:32:31] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:32:31,808 INFO werkzeug Thread-34 : 127.0.0.1 - - [16/Dec/2021 10:32:31] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:32:39,399 INFO werkzeug Thread-35 : 127.0.0.1 - - [16/Dec/2021 10:32:39] "GET /search HTTP/1.1" 200 -
+2021-12-16 10:32:39,409 INFO werkzeug Thread-36 : 127.0.0.1 - - [16/Dec/2021 10:32:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:32:39,417 INFO werkzeug Thread-37 : 127.0.0.1 - - [16/Dec/2021 10:32:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:33:23,425 INFO werkzeug Thread-38 : 127.0.0.1 - - [16/Dec/2021 10:33:23] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:33:23,458 INFO werkzeug Thread-39 : 127.0.0.1 - - [16/Dec/2021 10:33:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:33:31,726 INFO werkzeug Thread-40 : 127.0.0.1 - - [16/Dec/2021 10:33:31] "GET /search HTTP/1.1" 200 -
+2021-12-16 10:33:31,733 INFO werkzeug Thread-41 : 127.0.0.1 - - [16/Dec/2021 10:33:31] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:33:31,744 INFO werkzeug Thread-42 : 127.0.0.1 - - [16/Dec/2021 10:33:31] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:34:03,602 INFO werkzeug Thread-43 : 127.0.0.1 - - [16/Dec/2021 10:34:03] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:34:03,634 INFO werkzeug Thread-44 : 127.0.0.1 - - [16/Dec/2021 10:34:03] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:34:09,829 INFO werkzeug Thread-45 : 127.0.0.1 - - [16/Dec/2021 10:34:09] "GET /search HTTP/1.1" 200 -
+2021-12-16 10:34:09,834 INFO werkzeug Thread-46 : 127.0.0.1 - - [16/Dec/2021 10:34:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:34:09,847 INFO werkzeug Thread-47 : 127.0.0.1 - - [16/Dec/2021 10:34:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:34:56,855 INFO werkzeug Thread-48 : 127.0.0.1 - - [16/Dec/2021 10:34:56] "POST /search HTTP/1.1" 200 -
+2021-12-16 10:34:56,887 INFO werkzeug Thread-49 : 127.0.0.1 - - [16/Dec/2021 10:34:56] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:47:46,992 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-16 10:47:47,004 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 10:47:50,292 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 10:47:50,314 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 10:47:51,857 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 10:47:51] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 10:47:51,890 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 10:47:51] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 10:47:51,908 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 10:47:51] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 10:47:51,981 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 10:47:51] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 10:47:52,034 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 10:47:52] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 10:59:13,064 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 10:59:13] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 10:59:13,093 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 10:59:13] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 10:59:13,094 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 10:59:13] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 10:59:13,105 INFO werkzeug Thread-14 : 127.0.0.1 - - [16/Dec/2021 10:59:13] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 10:59:13,123 INFO werkzeug Thread-15 : 127.0.0.1 - - [16/Dec/2021 10:59:13] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 10:59:26,898 INFO werkzeug Thread-16 : 127.0.0.1 - - [16/Dec/2021 10:59:26] "GET /search HTTP/1.1" 200 -
+2021-12-16 10:59:26,904 INFO werkzeug Thread-17 : 127.0.0.1 - - [16/Dec/2021 10:59:26] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 10:59:36,709 INFO werkzeug Thread-18 : 127.0.0.1 - - [16/Dec/2021 10:59:36] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 10:59:36,745 INFO werkzeug Thread-19 : 127.0.0.1 - - [16/Dec/2021 10:59:36] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 10:59:36,746 INFO werkzeug Thread-20 : 127.0.0.1 - - [16/Dec/2021 10:59:36] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 10:59:36,755 INFO werkzeug Thread-21 : 127.0.0.1 - - [16/Dec/2021 10:59:36] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 10:59:36,774 INFO werkzeug Thread-22 : 127.0.0.1 - - [16/Dec/2021 10:59:36] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 11:01:06,199 INFO werkzeug Thread-23 : 127.0.0.1 - - [16/Dec/2021 11:01:06] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 11:01:06,220 INFO werkzeug Thread-25 : 127.0.0.1 - - [16/Dec/2021 11:01:06] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 11:01:06,222 INFO werkzeug Thread-24 : 127.0.0.1 - - [16/Dec/2021 11:01:06] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 11:01:06,236 INFO werkzeug Thread-26 : 127.0.0.1 - - [16/Dec/2021 11:01:06] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 11:01:06,247 INFO werkzeug Thread-27 : 127.0.0.1 - - [16/Dec/2021 11:01:06] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 11:02:12,299 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-16 11:02:12,340 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 11:02:16,358 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 11:02:16,433 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 11:02:18,926 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 11:02:18] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 11:02:18,962 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 11:02:18] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 11:02:18,963 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 11:02:18] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 11:02:18,974 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 11:02:18] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 11:02:18,993 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 11:02:18] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 11:02:24,695 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 11:02:24] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 11:02:24,722 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 11:02:24] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 11:02:24,722 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 11:02:24] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 11:02:24,751 INFO werkzeug Thread-14 : 127.0.0.1 - - [16/Dec/2021 11:02:24] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 11:02:24,757 INFO werkzeug Thread-15 : 127.0.0.1 - - [16/Dec/2021 11:02:24] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 11:03:04,719 INFO werkzeug Thread-16 : 127.0.0.1 - - [16/Dec/2021 11:03:04] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 11:03:04,747 INFO werkzeug Thread-18 : 127.0.0.1 - - [16/Dec/2021 11:03:04] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 11:03:04,748 INFO werkzeug Thread-17 : 127.0.0.1 - - [16/Dec/2021 11:03:04] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 11:03:04,759 INFO werkzeug Thread-19 : 127.0.0.1 - - [16/Dec/2021 11:03:04] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 11:03:04,772 INFO werkzeug Thread-20 : 127.0.0.1 - - [16/Dec/2021 11:03:04] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 11:05:16,336 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-16 11:05:16,342 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 11:05:17,895 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 11:05:17,906 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 11:05:24,878 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 11:05:24] "GET /search HTTP/1.1" 200 -
+2021-12-16 11:05:24,883 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 11:05:24] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:05:24,915 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 11:05:24] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:05:29,795 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 11:05:29] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 11:05:29,831 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 11:05:29] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 11:05:29,834 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 11:05:29] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 11:05:29,847 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 11:05:29] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 11:05:29,864 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 11:05:29] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 11:09:15,216 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-16 11:09:15,222 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 11:09:16,677 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 11:09:16,684 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 11:09:17,314 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 11:09:17] "GET /search HTTP/1.1" 200 -
+2021-12-16 11:09:17,333 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 11:09:17] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:09:23,367 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 11:09:23] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 11:09:23,404 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 11:09:23] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 11:09:23,405 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 11:09:23] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 11:09:23,423 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 11:09:23] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 11:09:23,453 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 11:09:23] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 11:10:43,521 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/routes.py', reloading
+2021-12-16 11:10:45,145 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 11:10:47,021 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 11:10:47,030 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 11:10:50,401 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 11:10:50] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 11:10:50,416 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 11:10:50] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 11:10:50,416 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 11:10:50] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 11:10:50,424 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 11:10:50] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 11:10:50,460 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 11:10:50] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 11:10:56,533 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/routes.py', reloading
+2021-12-16 11:10:57,776 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 11:10:59,492 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 11:10:59,501 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 11:11:00,513 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 11:11:00] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 11:11:00,527 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 11:11:00] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 11:11:00,527 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 11:11:00] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 11:11:00,565 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 11:11:00] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 11:11:00,577 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 11:11:00] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 11:11:06,457 INFO werkzeug Thread-1 :  * Detected change in '/Users/ambresaintobert/ambre-stbr/Flask_API/gamingroom/routes.py', reloading
+2021-12-16 11:11:07,755 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2021-12-16 11:11:09,852 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-16 11:11:09,861 INFO werkzeug MainThread :  * Debugger PIN: 106-314-099
+2021-12-16 11:11:11,383 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/Dec/2021 11:11:11] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 11:11:11,408 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/Dec/2021 11:11:11] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 11:11:11,409 INFO werkzeug Thread-8 : 127.0.0.1 - - [16/Dec/2021 11:11:11] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 11:11:11,417 INFO werkzeug Thread-9 : 127.0.0.1 - - [16/Dec/2021 11:11:11] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 11:11:11,432 INFO werkzeug Thread-10 : 127.0.0.1 - - [16/Dec/2021 11:11:11] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 11:11:13,316 INFO werkzeug Thread-11 : 127.0.0.1 - - [16/Dec/2021 11:11:13] "GET /search HTTP/1.1" 200 -
+2021-12-16 11:11:13,357 INFO werkzeug Thread-12 : 127.0.0.1 - - [16/Dec/2021 11:11:13] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:11:14,084 INFO werkzeug Thread-13 : 127.0.0.1 - - [16/Dec/2021 11:11:14] "GET / HTTP/1.1" 200 -
+2021-12-16 11:11:14,090 INFO werkzeug Thread-14 : 127.0.0.1 - - [16/Dec/2021 11:11:14] "GET /static/jeux2.png HTTP/1.1" 200 -
+2021-12-16 11:11:14,137 INFO werkzeug Thread-15 : 127.0.0.1 - - [16/Dec/2021 11:11:14] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:11:14,150 INFO werkzeug Thread-16 : 127.0.0.1 - - [16/Dec/2021 11:11:14] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:14,152 INFO werkzeug Thread-17 : 127.0.0.1 - - [16/Dec/2021 11:11:14] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:14,158 INFO werkzeug Thread-19 : 127.0.0.1 - - [16/Dec/2021 11:11:14] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:14,166 INFO werkzeug Thread-20 : 127.0.0.1 - - [16/Dec/2021 11:11:14] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:14,166 INFO werkzeug Thread-23 : 127.0.0.1 - - [16/Dec/2021 11:11:14] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:14,167 INFO werkzeug Thread-21 : 127.0.0.1 - - [16/Dec/2021 11:11:14] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:14,167 INFO werkzeug Thread-22 : 127.0.0.1 - - [16/Dec/2021 11:11:14] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:14,168 INFO werkzeug Thread-18 : 127.0.0.1 - - [16/Dec/2021 11:11:14] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:16,168 INFO werkzeug Thread-24 : 127.0.0.1 - - [16/Dec/2021 11:11:16] "GET /login HTTP/1.1" 200 -
+2021-12-16 11:11:16,192 INFO werkzeug Thread-25 : 127.0.0.1 - - [16/Dec/2021 11:11:16] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:11:23,498 INFO werkzeug Thread-26 : 127.0.0.1 - - [16/Dec/2021 11:11:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-12-16 11:11:23,509 INFO werkzeug Thread-27 : 127.0.0.1 - - [16/Dec/2021 11:11:23] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:11:23,552 INFO werkzeug Thread-28 : 127.0.0.1 - - [16/Dec/2021 11:11:23] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:11:23,556 INFO werkzeug Thread-29 : 127.0.0.1 - - [16/Dec/2021 11:11:23] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:23,566 INFO werkzeug Thread-30 : 127.0.0.1 - - [16/Dec/2021 11:11:23] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:23,574 INFO werkzeug Thread-31 : 127.0.0.1 - - [16/Dec/2021 11:11:23] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:23,580 INFO werkzeug Thread-32 : 127.0.0.1 - - [16/Dec/2021 11:11:23] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:23,583 INFO werkzeug Thread-33 : 127.0.0.1 - - [16/Dec/2021 11:11:23] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:25,065 INFO werkzeug Thread-34 : 127.0.0.1 - - [16/Dec/2021 11:11:25] "GET /search HTTP/1.1" 200 -
+2021-12-16 11:11:25,089 INFO werkzeug Thread-35 : 127.0.0.1 - - [16/Dec/2021 11:11:25] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:11:58,599 INFO werkzeug Thread-37 : 127.0.0.1 - - [16/Dec/2021 11:11:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-12-16 11:11:58,637 INFO werkzeug Thread-38 : 127.0.0.1 - - [16/Dec/2021 11:11:58] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:11:58,674 INFO werkzeug Thread-39 : 127.0.0.1 - - [16/Dec/2021 11:11:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:11:58,695 INFO werkzeug Thread-41 : 127.0.0.1 - - [16/Dec/2021 11:11:58] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:58,695 INFO werkzeug Thread-40 : 127.0.0.1 - - [16/Dec/2021 11:11:58] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:58,723 INFO werkzeug Thread-44 : 127.0.0.1 - - [16/Dec/2021 11:11:58] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:58,724 INFO werkzeug Thread-43 : 127.0.0.1 - - [16/Dec/2021 11:11:58] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:58,724 INFO werkzeug Thread-42 : 127.0.0.1 - - [16/Dec/2021 11:11:58] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:11:59,493 INFO werkzeug Thread-36 : 127.0.0.1 - - [16/Dec/2021 11:11:59] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 11:12:00,738 INFO werkzeug Thread-45 : 127.0.0.1 - - [16/Dec/2021 11:12:00] "GET /search HTTP/1.1" 200 -
+2021-12-16 11:12:00,758 INFO werkzeug Thread-46 : 127.0.0.1 - - [16/Dec/2021 11:12:00] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:12:04,885 INFO werkzeug Thread-47 : 127.0.0.1 - - [16/Dec/2021 11:12:04] "[35m[1mPOST /search HTTP/1.1[0m" 500 -
+2021-12-16 11:12:04,905 INFO werkzeug Thread-49 : 127.0.0.1 - - [16/Dec/2021 11:12:04] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 11:12:04,906 INFO werkzeug Thread-48 : 127.0.0.1 - - [16/Dec/2021 11:12:04] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 11:12:04,925 INFO werkzeug Thread-50 : 127.0.0.1 - - [16/Dec/2021 11:12:04] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 11:12:04,935 INFO werkzeug Thread-51 : 127.0.0.1 - - [16/Dec/2021 11:12:04] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 11:13:48,946 INFO werkzeug Thread-52 : 127.0.0.1 - - [16/Dec/2021 11:13:48] "GET /search HTTP/1.1" 200 -
+2021-12-16 11:13:49,003 INFO werkzeug Thread-53 : 127.0.0.1 - - [16/Dec/2021 11:13:49] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:13:54,238 INFO werkzeug Thread-54 : 127.0.0.1 - - [16/Dec/2021 11:13:54] "GET /login HTTP/1.1" 200 -
+2021-12-16 11:13:54,260 INFO werkzeug Thread-55 : 127.0.0.1 - - [16/Dec/2021 11:13:54] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:13:55,683 INFO werkzeug Thread-56 : 127.0.0.1 - - [16/Dec/2021 11:13:55] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:13:55,718 INFO werkzeug Thread-57 : 127.0.0.1 - - [16/Dec/2021 11:13:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:13:55,745 INFO werkzeug Thread-58 : 127.0.0.1 - - [16/Dec/2021 11:13:55] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:13:55,746 INFO werkzeug Thread-59 : 127.0.0.1 - - [16/Dec/2021 11:13:55] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:13:55,747 INFO werkzeug Thread-60 : 127.0.0.1 - - [16/Dec/2021 11:13:55] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:13:55,750 INFO werkzeug Thread-61 : 127.0.0.1 - - [16/Dec/2021 11:13:55] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:13:55,752 INFO werkzeug Thread-62 : 127.0.0.1 - - [16/Dec/2021 11:13:55] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:13:56,621 INFO werkzeug Thread-63 : 127.0.0.1 - - [16/Dec/2021 11:13:56] "GET /login HTTP/1.1" 200 -
+2021-12-16 11:13:56,643 INFO werkzeug Thread-64 : 127.0.0.1 - - [16/Dec/2021 11:13:56] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:13:57,290 INFO werkzeug Thread-65 : 127.0.0.1 - - [16/Dec/2021 11:13:57] "GET /register HTTP/1.1" 200 -
+2021-12-16 11:13:57,306 INFO werkzeug Thread-66 : 127.0.0.1 - - [16/Dec/2021 11:13:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:13:58,200 INFO werkzeug Thread-67 : 127.0.0.1 - - [16/Dec/2021 11:13:58] "GET /login HTTP/1.1" 200 -
+2021-12-16 11:13:58,219 INFO werkzeug Thread-68 : 127.0.0.1 - - [16/Dec/2021 11:13:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:13:58,827 INFO werkzeug Thread-69 : 127.0.0.1 - - [16/Dec/2021 11:13:58] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:13:58,846 INFO werkzeug Thread-70 : 127.0.0.1 - - [16/Dec/2021 11:13:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:13:58,885 INFO werkzeug Thread-71 : 127.0.0.1 - - [16/Dec/2021 11:13:58] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:13:58,895 INFO werkzeug Thread-72 : 127.0.0.1 - - [16/Dec/2021 11:13:58] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:13:58,901 INFO werkzeug Thread-73 : 127.0.0.1 - - [16/Dec/2021 11:13:58] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:13:58,903 INFO werkzeug Thread-75 : 127.0.0.1 - - [16/Dec/2021 11:13:58] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:13:58,903 INFO werkzeug Thread-74 : 127.0.0.1 - - [16/Dec/2021 11:13:58] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:04,924 INFO werkzeug Thread-76 : 127.0.0.1 - - [16/Dec/2021 11:14:04] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:14:04,954 INFO werkzeug Thread-78 : 127.0.0.1 - - [16/Dec/2021 11:14:04] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:14:04,956 INFO werkzeug Thread-77 : 127.0.0.1 - - [16/Dec/2021 11:14:04] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:04,960 INFO werkzeug Thread-81 : 127.0.0.1 - - [16/Dec/2021 11:14:04] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:04,967 INFO werkzeug Thread-80 : 127.0.0.1 - - [16/Dec/2021 11:14:04] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:04,975 INFO werkzeug Thread-79 : 127.0.0.1 - - [16/Dec/2021 11:14:04] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:04,975 INFO werkzeug Thread-82 : 127.0.0.1 - - [16/Dec/2021 11:14:04] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:05,524 INFO werkzeug Thread-83 : 127.0.0.1 - - [16/Dec/2021 11:14:05] "GET /login HTTP/1.1" 200 -
+2021-12-16 11:14:05,543 INFO werkzeug Thread-84 : 127.0.0.1 - - [16/Dec/2021 11:14:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:14:06,177 INFO werkzeug Thread-85 : 127.0.0.1 - - [16/Dec/2021 11:14:06] "GET /register HTTP/1.1" 200 -
+2021-12-16 11:14:06,204 INFO werkzeug Thread-86 : 127.0.0.1 - - [16/Dec/2021 11:14:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:14:07,198 INFO werkzeug Thread-87 : 127.0.0.1 - - [16/Dec/2021 11:14:07] "GET /login HTTP/1.1" 200 -
+2021-12-16 11:14:07,217 INFO werkzeug Thread-88 : 127.0.0.1 - - [16/Dec/2021 11:14:07] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:14:07,725 INFO werkzeug Thread-89 : 127.0.0.1 - - [16/Dec/2021 11:14:07] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:14:07,756 INFO werkzeug Thread-90 : 127.0.0.1 - - [16/Dec/2021 11:14:07] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:14:07,764 INFO werkzeug Thread-91 : 127.0.0.1 - - [16/Dec/2021 11:14:07] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:07,777 INFO werkzeug Thread-92 : 127.0.0.1 - - [16/Dec/2021 11:14:07] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:07,783 INFO werkzeug Thread-94 : 127.0.0.1 - - [16/Dec/2021 11:14:07] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:07,789 INFO werkzeug Thread-93 : 127.0.0.1 - - [16/Dec/2021 11:14:07] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:07,792 INFO werkzeug Thread-95 : 127.0.0.1 - - [16/Dec/2021 11:14:07] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:46,949 INFO werkzeug Thread-96 : 127.0.0.1 - - [16/Dec/2021 11:14:46] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:14:46,981 INFO werkzeug Thread-97 : 127.0.0.1 - - [16/Dec/2021 11:14:46] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:14:46,986 INFO werkzeug Thread-99 : 127.0.0.1 - - [16/Dec/2021 11:14:46] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:46,987 INFO werkzeug Thread-98 : 127.0.0.1 - - [16/Dec/2021 11:14:46] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:46,992 INFO werkzeug Thread-100 : 127.0.0.1 - - [16/Dec/2021 11:14:46] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:47,000 INFO werkzeug Thread-101 : 127.0.0.1 - - [16/Dec/2021 11:14:47] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:47,004 INFO werkzeug Thread-102 : 127.0.0.1 - - [16/Dec/2021 11:14:47] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:48,405 INFO werkzeug Thread-103 : 127.0.0.1 - - [16/Dec/2021 11:14:48] "GET /login HTTP/1.1" 200 -
+2021-12-16 11:14:48,428 INFO werkzeug Thread-104 : 127.0.0.1 - - [16/Dec/2021 11:14:48] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:14:55,565 INFO werkzeug Thread-105 : 127.0.0.1 - - [16/Dec/2021 11:14:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-12-16 11:14:55,576 INFO werkzeug Thread-106 : 127.0.0.1 - - [16/Dec/2021 11:14:55] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:14:55,609 INFO werkzeug Thread-107 : 127.0.0.1 - - [16/Dec/2021 11:14:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:14:55,629 INFO werkzeug Thread-108 : 127.0.0.1 - - [16/Dec/2021 11:14:55] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:55,634 INFO werkzeug Thread-109 : 127.0.0.1 - - [16/Dec/2021 11:14:55] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:55,640 INFO werkzeug Thread-110 : 127.0.0.1 - - [16/Dec/2021 11:14:55] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:55,643 INFO werkzeug Thread-111 : 127.0.0.1 - - [16/Dec/2021 11:14:55] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:14:55,648 INFO werkzeug Thread-112 : 127.0.0.1 - - [16/Dec/2021 11:14:55] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:15:32,410 INFO werkzeug Thread-113 : 127.0.0.1 - - [16/Dec/2021 11:15:32] "GET /History HTTP/1.1" 200 -
+2021-12-16 11:15:32,433 INFO werkzeug Thread-114 : 127.0.0.1 - - [16/Dec/2021 11:15:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:15:33,770 INFO werkzeug Thread-115 : 127.0.0.1 - - [16/Dec/2021 11:15:33] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:15:33,806 INFO werkzeug Thread-116 : 127.0.0.1 - - [16/Dec/2021 11:15:33] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:15:33,820 INFO werkzeug Thread-117 : 127.0.0.1 - - [16/Dec/2021 11:15:33] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:15:33,833 INFO werkzeug Thread-118 : 127.0.0.1 - - [16/Dec/2021 11:15:33] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:15:33,849 INFO werkzeug Thread-119 : 127.0.0.1 - - [16/Dec/2021 11:15:33] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:15:33,863 INFO werkzeug Thread-121 : 127.0.0.1 - - [16/Dec/2021 11:15:33] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:15:33,863 INFO werkzeug Thread-120 : 127.0.0.1 - - [16/Dec/2021 11:15:33] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:15:41,887 INFO werkzeug Thread-122 : 127.0.0.1 - - [16/Dec/2021 11:15:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-12-16 11:15:41,896 INFO werkzeug Thread-123 : 127.0.0.1 - - [16/Dec/2021 11:15:41] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:15:41,930 INFO werkzeug Thread-124 : 127.0.0.1 - - [16/Dec/2021 11:15:41] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:15:41,953 INFO werkzeug Thread-127 : 127.0.0.1 - - [16/Dec/2021 11:15:41] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:15:41,958 INFO werkzeug Thread-128 : 127.0.0.1 - - [16/Dec/2021 11:15:41] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:15:41,959 INFO werkzeug Thread-126 : 127.0.0.1 - - [16/Dec/2021 11:15:41] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:15:41,959 INFO werkzeug Thread-125 : 127.0.0.1 - - [16/Dec/2021 11:15:41] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:15:41,960 INFO werkzeug Thread-129 : 127.0.0.1 - - [16/Dec/2021 11:15:41] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:16:35,821 INFO werkzeug Thread-130 : 127.0.0.1 - - [16/Dec/2021 11:16:35] "GET /login HTTP/1.1" 200 -
+2021-12-16 11:16:35,842 INFO werkzeug Thread-131 : 127.0.0.1 - - [16/Dec/2021 11:16:35] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:16:39,361 INFO werkzeug Thread-132 : 127.0.0.1 - - [16/Dec/2021 11:16:39] "GET /register HTTP/1.1" 200 -
+2021-12-16 11:16:39,384 INFO werkzeug Thread-133 : 127.0.0.1 - - [16/Dec/2021 11:16:39] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:16:43,876 INFO werkzeug Thread-134 : 127.0.0.1 - - [16/Dec/2021 11:16:43] "GET /login HTTP/1.1" 200 -
+2021-12-16 11:16:43,896 INFO werkzeug Thread-135 : 127.0.0.1 - - [16/Dec/2021 11:16:43] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:16:46,738 INFO werkzeug Thread-136 : 127.0.0.1 - - [16/Dec/2021 11:16:46] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:16:46,781 INFO werkzeug Thread-137 : 127.0.0.1 - - [16/Dec/2021 11:16:46] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:16:46,788 INFO werkzeug Thread-138 : 127.0.0.1 - - [16/Dec/2021 11:16:46] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:16:46,788 INFO werkzeug Thread-139 : 127.0.0.1 - - [16/Dec/2021 11:16:46] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:16:46,792 INFO werkzeug Thread-140 : 127.0.0.1 - - [16/Dec/2021 11:16:46] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:16:46,799 INFO werkzeug Thread-142 : 127.0.0.1 - - [16/Dec/2021 11:16:46] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:16:46,806 INFO werkzeug Thread-141 : 127.0.0.1 - - [16/Dec/2021 11:16:46] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:16:47,795 INFO werkzeug Thread-143 : 127.0.0.1 - - [16/Dec/2021 11:16:47] "GET /register HTTP/1.1" 200 -
+2021-12-16 11:16:47,818 INFO werkzeug Thread-144 : 127.0.0.1 - - [16/Dec/2021 11:16:47] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:16:48,418 INFO werkzeug Thread-145 : 127.0.0.1 - - [16/Dec/2021 11:16:48] "GET /login HTTP/1.1" 200 -
+2021-12-16 11:16:48,436 INFO werkzeug Thread-146 : 127.0.0.1 - - [16/Dec/2021 11:16:48] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:16:57,051 INFO werkzeug Thread-147 : 127.0.0.1 - - [16/Dec/2021 11:16:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-12-16 11:16:57,068 INFO werkzeug Thread-148 : 127.0.0.1 - - [16/Dec/2021 11:16:57] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:16:57,116 INFO werkzeug Thread-149 : 127.0.0.1 - - [16/Dec/2021 11:16:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:16:57,119 INFO werkzeug Thread-150 : 127.0.0.1 - - [16/Dec/2021 11:16:57] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:16:57,132 INFO werkzeug Thread-151 : 127.0.0.1 - - [16/Dec/2021 11:16:57] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:16:57,138 INFO werkzeug Thread-152 : 127.0.0.1 - - [16/Dec/2021 11:16:57] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:16:57,140 INFO werkzeug Thread-153 : 127.0.0.1 - - [16/Dec/2021 11:16:57] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:16:57,143 INFO werkzeug Thread-154 : 127.0.0.1 - - [16/Dec/2021 11:16:57] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:16:58,811 INFO werkzeug Thread-155 : 127.0.0.1 - - [16/Dec/2021 11:16:58] "GET /search HTTP/1.1" 200 -
+2021-12-16 11:16:58,832 INFO werkzeug Thread-156 : 127.0.0.1 - - [16/Dec/2021 11:16:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:17:05,331 INFO werkzeug Thread-157 : 127.0.0.1 - - [16/Dec/2021 11:17:05] "GET /History HTTP/1.1" 200 -
+2021-12-16 11:17:05,353 INFO werkzeug Thread-158 : 127.0.0.1 - - [16/Dec/2021 11:17:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:17:08,395 INFO werkzeug Thread-159 : 127.0.0.1 - - [16/Dec/2021 11:17:08] "GET /account HTTP/1.1" 200 -
+2021-12-16 11:17:08,416 INFO werkzeug Thread-160 : 127.0.0.1 - - [16/Dec/2021 11:17:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:18:14,719 INFO werkzeug Thread-161 : 127.0.0.1 - - [16/Dec/2021 11:18:14] "GET /History HTTP/1.1" 200 -
+2021-12-16 11:18:14,740 INFO werkzeug Thread-162 : 127.0.0.1 - - [16/Dec/2021 11:18:14] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:18:15,253 INFO werkzeug Thread-163 : 127.0.0.1 - - [16/Dec/2021 11:18:15] "GET /search HTTP/1.1" 200 -
+2021-12-16 11:18:15,265 INFO werkzeug Thread-164 : 127.0.0.1 - - [16/Dec/2021 11:18:15] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:18:52,164 INFO werkzeug Thread-165 : 127.0.0.1 - - [16/Dec/2021 11:18:52] "POST /search HTTP/1.1" 200 -
+2021-12-16 11:18:52,198 INFO werkzeug Thread-166 : 127.0.0.1 - - [16/Dec/2021 11:18:52] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:20:54,741 INFO werkzeug Thread-167 : 127.0.0.1 - - [16/Dec/2021 11:20:54] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:20:54,781 INFO werkzeug Thread-168 : 127.0.0.1 - - [16/Dec/2021 11:20:54] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:20:54,790 INFO werkzeug Thread-169 : 127.0.0.1 - - [16/Dec/2021 11:20:54] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:20:54,790 INFO werkzeug Thread-170 : 127.0.0.1 - - [16/Dec/2021 11:20:54] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:20:54,795 INFO werkzeug Thread-172 : 127.0.0.1 - - [16/Dec/2021 11:20:54] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:20:54,797 INFO werkzeug Thread-171 : 127.0.0.1 - - [16/Dec/2021 11:20:54] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:20:54,802 INFO werkzeug Thread-173 : 127.0.0.1 - - [16/Dec/2021 11:20:54] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 11:20:55,789 INFO werkzeug Thread-174 : 127.0.0.1 - - [16/Dec/2021 11:20:55] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-12-16 11:20:55,798 INFO werkzeug Thread-175 : 127.0.0.1 - - [16/Dec/2021 11:20:55] "GET /home HTTP/1.1" 200 -
+2021-12-16 11:20:55,833 INFO werkzeug Thread-176 : 127.0.0.1 - - [16/Dec/2021 11:20:55] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 11:20:55,838 INFO werkzeug Thread-177 : 127.0.0.1 - - [16/Dec/2021 11:20:55] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 11:20:55,844 INFO werkzeug Thread-178 : 127.0.0.1 - - [16/Dec/2021 11:20:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 11:20:55,845 INFO werkzeug Thread-179 : 127.0.0.1 - - [16/Dec/2021 11:20:55] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 11:20:55,849 INFO werkzeug Thread-180 : 127.0.0.1 - - [16/Dec/2021 11:20:55] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 11:20:55,854 INFO werkzeug Thread-181 : 127.0.0.1 - - [16/Dec/2021 11:20:55] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 12:12:21,719 INFO werkzeug Thread-182 : 127.0.0.1 - - [16/Dec/2021 12:12:21] "GET /login HTTP/1.1" 200 -
+2021-12-16 12:12:21,746 INFO werkzeug Thread-183 : 127.0.0.1 - - [16/Dec/2021 12:12:21] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 12:12:22,935 INFO werkzeug Thread-184 : 127.0.0.1 - - [16/Dec/2021 12:12:22] "GET /register HTTP/1.1" 200 -
+2021-12-16 12:12:22,963 INFO werkzeug Thread-185 : 127.0.0.1 - - [16/Dec/2021 12:12:22] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 12:12:57,388 INFO werkzeug Thread-186 : 127.0.0.1 - - [16/Dec/2021 12:12:57] "POST /register HTTP/1.1" 200 -
+2021-12-16 12:12:57,438 INFO werkzeug Thread-187 : 127.0.0.1 - - [16/Dec/2021 12:12:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 12:13:06,599 INFO werkzeug Thread-188 : 127.0.0.1 - - [16/Dec/2021 12:13:06] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2021-12-16 12:13:06,623 INFO werkzeug Thread-190 : 127.0.0.1 - - [16/Dec/2021 12:13:06] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-12-16 12:13:06,626 INFO werkzeug Thread-189 : 127.0.0.1 - - [16/Dec/2021 12:13:06] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-12-16 12:13:06,640 INFO werkzeug Thread-191 : 127.0.0.1 - - [16/Dec/2021 12:13:06] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 12:13:06,686 INFO werkzeug Thread-192 : 127.0.0.1 - - [16/Dec/2021 12:13:06] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-12-16 12:13:06,704 INFO werkzeug Thread-193 : 127.0.0.1 - - [16/Dec/2021 12:13:06] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-12-16 12:13:22,513 INFO werkzeug Thread-194 : 127.0.0.1 - - [16/Dec/2021 12:13:22] "GET /login HTTP/1.1" 200 -
+2021-12-16 12:13:22,538 INFO werkzeug Thread-195 : 127.0.0.1 - - [16/Dec/2021 12:13:22] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 12:13:38,823 INFO werkzeug Thread-196 : 127.0.0.1 - - [16/Dec/2021 12:13:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-12-16 12:13:38,832 INFO werkzeug Thread-197 : 127.0.0.1 - - [16/Dec/2021 12:13:38] "GET /home HTTP/1.1" 200 -
+2021-12-16 12:13:38,882 INFO werkzeug Thread-200 : 127.0.0.1 - - [16/Dec/2021 12:13:38] "[36mGET /static/jeux4.png HTTP/1.1[0m" 304 -
+2021-12-16 12:13:38,884 INFO werkzeug Thread-199 : 127.0.0.1 - - [16/Dec/2021 12:13:38] "[36mGET /static/jeux2.png HTTP/1.1[0m" 304 -
+2021-12-16 12:13:38,886 INFO werkzeug Thread-201 : 127.0.0.1 - - [16/Dec/2021 12:13:38] "[36mGET /static/jeux3.png HTTP/1.1[0m" 304 -
+2021-12-16 12:13:38,886 INFO werkzeug Thread-198 : 127.0.0.1 - - [16/Dec/2021 12:13:38] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 12:13:38,889 INFO werkzeug Thread-202 : 127.0.0.1 - - [16/Dec/2021 12:13:38] "[36mGET /static/jeux1.png HTTP/1.1[0m" 304 -
+2021-12-16 12:13:38,892 INFO werkzeug Thread-203 : 127.0.0.1 - - [16/Dec/2021 12:13:38] "[36mGET /static/jeux5.png HTTP/1.1[0m" 304 -
+2021-12-16 12:13:44,774 INFO werkzeug Thread-204 : 127.0.0.1 - - [16/Dec/2021 12:13:44] "GET /account HTTP/1.1" 200 -
+2021-12-16 12:13:44,800 INFO werkzeug Thread-205 : 127.0.0.1 - - [16/Dec/2021 12:13:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 12:13:47,330 INFO werkzeug Thread-206 : 127.0.0.1 - - [16/Dec/2021 12:13:47] "GET /History HTTP/1.1" 200 -
+2021-12-16 12:13:47,354 INFO werkzeug Thread-207 : 127.0.0.1 - - [16/Dec/2021 12:13:47] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 12:13:55,637 INFO werkzeug Thread-208 : 127.0.0.1 - - [16/Dec/2021 12:13:55] "GET /search HTTP/1.1" 200 -
+2021-12-16 12:13:55,669 INFO werkzeug Thread-209 : 127.0.0.1 - - [16/Dec/2021 12:13:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 12:15:01,904 INFO werkzeug Thread-210 : 127.0.0.1 - - [16/Dec/2021 12:15:01] "POST /search HTTP/1.1" 200 -
+2021-12-16 12:15:01,934 INFO werkzeug Thread-211 : 127.0.0.1 - - [16/Dec/2021 12:15:01] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 12:15:36,281 INFO werkzeug Thread-212 : 127.0.0.1 - - [16/Dec/2021 12:15:36] "GET /search HTTP/1.1" 200 -
+2021-12-16 12:15:36,294 INFO werkzeug Thread-213 : 127.0.0.1 - - [16/Dec/2021 12:15:36] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-12-16 12:16:14,040 INFO werkzeug Thread-214 : 127.0.0.1 - - [16/Dec/2021 12:16:14] "POST /search HTTP/1.1" 200 -
+2021-12-16 12:16:14,066 INFO werkzeug Thread-215 : 127.0.0.1 - - [16/Dec/2021 12:16:14] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
